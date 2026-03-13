@@ -16,7 +16,7 @@ class ProfileController extends Controller
         $user =Auth::user();
 
         return response()->json([
-            "message" => "Profile fetched successfully",
+            "message" => "Profile fetchd successfully",
             "user" => $user,
             "status" => 200
         ],200);
